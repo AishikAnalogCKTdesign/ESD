@@ -7,7 +7,9 @@ An object is or in this case a IC is not vulnearble to ESD if it does not have a
 
 Various Models to measure the ESD is already in practise
 1)HBM or Human Body Model- Here the Human body is modeled via a Resistance of 1500ohms a capaciatnce 100 pF .This whole circuitry is then connected with the DUT and tested.If the rise and time is of desired result then this ESD event is a pass .
+
 2)MM or Machine model- The same theory is same but the model is now designed with R=100 Ohm, C= 200 Pf and L =0.5 nH .
+
 3)Charged Device Model or CDM-The theory is the same but here the model is designed R=10-50 Ohm, C= 200 Pf and L =0.5 nH 
 
 What we see is that the discharge is the fastest in the CDM and slowest in the HBM due to the resistance .
